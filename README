@@ -1,0 +1,15 @@
+1. Build the wro4j-jar first:
+mvn clean install
+
+2. Start the wro4j-webapp:
+mvn jetty:run
+
+3. Check the external external.css in browser:
+http://localhost:8080/wro/external.css
+
+Result: 
+URL for the background images is wrong:
+
+It shows: background-image:url(/wro/wroResources?id=classpath:com/app/images/test.png
+
+Correct value is: background-image:url(/wro/wroResources?id=classpath:com/app/level1/level2/styles/images/test.png)

@@ -1,0 +1,8 @@
+<groups xmlns="http://www.isdc.ro/wro">
+    <group name="all">
+        <css>/styles/**.css</css>
+    </group>
+    <group name="external">
+        <css>classpath:com/app/**.css</css>
+    </group>
+</groups>
